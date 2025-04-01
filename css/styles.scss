@@ -263,12 +263,14 @@ main {
                 display: flex;
                 flex-direction: row;
                 gap: 1.5rem;
+                padding-top: 0.5rem;
                 align-items: flex-start;
                 justify-content: flex-start;
                 margin-bottom: clamp clamp(1.5rem, 2.5vw, 3rem);
 
                 @media screen and (min-width:757px) {
                     margin-bottom: 0;
+                    padding-top: 0;
                 }
 
                 h2 {
